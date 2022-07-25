@@ -1,0 +1,64 @@
+.body {
+    background-image: url(images\(6\).jpeg);
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+    border: none;
+    border-radius: 30px;
+    color: rgb(244, 235, 235);
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+#increment-btn {
+    background-color: rgb(144, 30, 176);
+}
+
+#save-btn {
+    background-color: rgb(211, 11, 11);
+}
+
+h3 {
+    text-align:center ;
+}
+
+#clear-btn {
+    background-color: crimson
+}
+
+
+
+
+
+
+
+
+
+
+

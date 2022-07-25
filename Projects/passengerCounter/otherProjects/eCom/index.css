@@ -1,0 +1,19 @@
+body {
+    text-align: center;
+    font: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+button {
+    width: auto;
+    height: 50px;
+    color: white;
+    background-color: slategray;
+    border: none;
+    border-radius: 30px;
+}
+
+#error {
+    color: red;
+}
