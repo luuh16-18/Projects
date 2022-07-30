@@ -19,8 +19,8 @@ function save() {
 }
 
 function clear() {
-    clearEl.textContent = "Previous Enteries: "
-    save()
+    let clearStr = ""
+    clearEl.textContent += "Previous Enteries: "
 } 
 
 
