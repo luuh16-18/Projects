@@ -2,7 +2,10 @@ body {
     margin: 0;
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
-    min-width: 400px;
+    min-width: 300px;
+    background-image: url('blob.svg');
+    background-position: 50%;
+    background-size: 200px;
 }
 
 input {
@@ -14,7 +17,7 @@ input {
     border-color: #5f9341;
 }
 button {
-    width: 200px;
+    width: 140px;
     height: 30px;
     margin-top: 10px;
     background-color: #5f9341;
@@ -27,9 +30,9 @@ button {
 }
 
 ul {
-    color: #5f9341;
+    color: black;
     list-style: none;
-    padding-left: 0;
+    padding-left: 10px;
     margin-top: 5px;
 
 }
@@ -39,5 +42,22 @@ li {
 }
 
 a {
-    color: #5f9341;
+    color: black;
+    padding-left: 10px;
+    text-decoration: underline;
+    font-size: medium;
+    font-weight: 600;
+    padding-top: 10px;
+    
+}
+
+#delete-btn {
+    background-color: rgb(202, 19, 19);
+}
+
+#ul-el {
+    padding-left: 10px;
+    color: black;
+    font-size: medium;
+    font-weight: 600;
 }

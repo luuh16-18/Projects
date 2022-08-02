@@ -18,10 +18,9 @@ function save() {
     console.log(count)
 }
 
-function clear() {
-    let clearStr = ""
-    clearEl.textContent += "Previous Enteries: "
-} 
+clearEl.addEventListener(("click"), function(){
+    countEl.textContent.clear
+})
 
 
 
